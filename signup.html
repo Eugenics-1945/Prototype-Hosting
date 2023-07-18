@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/signup.css">
+    <title>Create Account</title>
+</head>
+<body>
+       
+        <div class="banner">
+            <div class="navbar">
+            <img src="Images/Icon.png" class="logo">
+            <ul>
+                <li><a href="login.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="signup.html">Create an account</a></li>
+                
+            </ul>
+            </div>
+        </div>
+     
+
+        <div class="container">
+            <form action="" method="post">
+                <h2>Create your account.</h2>
+                    <div class="content">
+                        <div class="input-box">
+                            <label for="name">Full Name: </label>
+                            <input type="text" placeholder="Enter your full name" name="name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="username">Username: </label>
+                            <input type="text" placeholder="Enter your full name" name="name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="name">Email:</label>
+                            <input type="text" placeholder="Enter username" name="name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="phonenumber">Phone Number:</label>
+                            <input type="tel" placeholder="Enter your phone number" name="phoneNumber" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="name">Password:</label>
+                            <input type="password" placeholder="Enter your password" name="password" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="name">Confirm passsword:</label>
+                            <input type="password" placeholder="Confirm your password" name="confirmPassword" required>
+                        </div>
+                        <span class="gender-title">Gender</span>
+                        <div class="gender-category">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male">
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="male">
+                            <label for="other">Other</label>
+                        </div>
+                        <div class="alert">By clicking sign up, you agree to our <a href="#">Terms</a> and <a href="#">Policy.</a></div>
+                        <div class="button-container">
+                            <button type="submit">Register</button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+
+</body>
+</html>
